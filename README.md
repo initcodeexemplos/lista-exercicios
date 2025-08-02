@@ -1,137 +1,200 @@
-# Exercícios
-Repositório com lista de exercícios para QUALQUER linguagem de programação.
+## Exercícios para Iniciantes**
 
-# Introdução
+---
 
-0. Faça um programa (FUP) que escreva na tela "Hello World!"
+### ✅ **Introdução**
 
-# Estruturação
+**0.** Crie um programa simples que mostre a frase **"Hello World!"** na tela. Esse é o primeiro passo de qualquer programador.
 
-1. FUP que solicite dois numeros reais, realize a soma; Imprima o resultado;
-2. FUP que leia o valor da hora do trabalhador e a quantidade de horas trabalhadas. Imprima o valor que o trabalhador deverá receber ao final do mês.;
-3. FUP que solicite o peso de 5 pessoas e calcule a media; Imprima o resultado;
-4. Ler uma temperatura em graus Celsius e apresentá-la convertida em graus Fahrenheit. A fórmula de conversão é : F = (9*C+160)/5 Sendo F a temperatura em Fahrenheit e C a temperatura em Celsius.
-5. FUP que solicite a quantidade de milhas e converta para quilometros (1milha = 1.60934kms);
-6. FUP que solicite a duração de um evento em segundos e imprima em horas, minutos e segundos;
-7. FUP que leia um valor em quilometros e converta para metros e centimetro;
-8. FUP que peça um número e imprima a tabuada deste número
+---
 
-> Desafio 0) FUP que leia a idade de uma pessoa em anos e imprima a idade em meses e em dias.
+### 🧱 **Estruturação**
 
-> Desafio 1) FUP que leia dois valores A e B, efetue a troca dos valores de forma que a variável A passe a possuir o valor da variável B e a variável B passe a possuir o valor da variável A. Apresentar os valores das variáveis antes e depois de trocados;
+**1.** Peça ao usuário dois números com casas decimais (números reais), some os dois e mostre o resultado.
 
-> Desafio 2) FUP que leia dois números inteiros e imprima o maior deles.
+**2.** Peça o valor que a pessoa ganha por hora e a quantidade de horas trabalhadas no mês. Mostre quanto ela vai receber no final do mês.
 
-# Estrutura de Condição
+**3.** Peça o peso de 5 pessoas e calcule a média desses pesos. Mostre o resultado.
 
-9. FUP que calcule a média aritmética das 3 notas de um aluno e mostre, além do valor da média, uma mensagem de "Aprovado", caso a média seja igual ou superior a 7, a mensagem "Recuperação", caso a média se igual ou superior a 5 e inferior a 7, ou a mensagem “Reprovado”, caso a média seja inferior a 5.
+**4.** Peça uma temperatura em graus Celsius e converta para Fahrenheit usando a fórmula:
+   **F = (9 \* C + 160) / 5**
 
-10. FUP que calcule o IMC -solicite se é H ou M e faça o calculo;
-- para homens: (72.7*h)-58
-- para mulheres: (62.1*h)-44.7
+**5.** Peça uma distância em milhas e converta para quilômetros.
+   (Dica: 1 milha = 1.60934 km)
 
-11. FUP que solicite a operação (+,-,/,*) e dois numeros, calcule a operação solicitada e informe o resultado;
-12. FUP que peça um número e imprima uma mensagem se esse número é positivo ou negativo;
-13. FUP que solicite um numero e veja se ele é par ou impar;
-    Dica: Pares ou Ímpares? Utilize o resto da divisão por 2: `numero % 2`
-14. FUP que solicite dois numero e verifique qual é o maior;
-15. FUP que leia 3 valores a,b,c e verifique se eles formam ou não um triângulo. Caso os valores formem um triângulo, solicite a base e a altura, calcule (base * altura / 2) e escreva a área deste triângulo. Se não formam triângulo escreva os valores lidos. 
-16. FUP que calcule o imposto de renda de um contribuinte. Os dados de entrada são: o CPF(int), o número de dependentes e a renda mensal. Para cada dependente será feito um desconto de 5% do salário mínimo por dependente. Os valores da alíquota para cálculo do imposto são:
+**6.** Peça a duração de um evento em segundos. Mostre esse tempo em horas, minutos e segundos.
 
-| Renda Mensal              | Alíquota |
-| ------------------------- | -------- |
-| Até 2 salários mínimos    | Isento   |
-| 2 < salários mínimos <= 3 | 5%       |
-| 3 < salários mínimos <= 5 | 10%      |
-| 5 < salários mínimos <= 7 | 15%      |
-| Salários mínimos > 7      | 20%      |
+**7.** Peça uma distância em quilômetros e converta para metros e centímetros.
 
+**8.** Peça um número inteiro e mostre a tabuada dele (do 0 até o 10).
 
->Desafio 3) FUP que solicite três numero e verifique qual é o menor;
+---
 
->Desafio 4) FUP que peça um ano e verifique se ano informado é bissexto. Imprima essa
+### 🚀 **Desafios Iniciais**
 
-# Para melhorar a sua matematica
+**Desafio 0.** Peça a idade de uma pessoa em anos e mostre a mesma idade em meses e em dias.
+   (Dica: Considere que 1 ano tem 12 meses e 365 dias)
 
-17. FUP que leia as 3 notas de um aluno e calcule a média final deste aluno. Considerar que a média é ponderada e que o peso das notas é: 2,3 e 5, respectivamente. - media ponderada
-18. O custo ao consumidor de um carro novo é a soma do custo de fábrica com a percentagem do distribuidor e dos impostos (aplicados ao custo de fábrica). Supondo que a percentagem do distribuidor seja de 28% e os impostos de 45%, escrever um algoritmo que leia o custo de fábrica de um carro e escreva o custo ao consumidor.
-19. FUP que calcule os juros de determinado capital, taxa e tempo informados pelo usuário e apresente na tela o valor do capital informado, os juros e o valor do montante da operação. O valor da taxa deverá ser informado em valores decimais, ex.: 5% informar 0.05 e o tempo devera ser informado em dias.
+**Desafio 1.** Peça dois valores (A e B), mostre os valores originais, troque os conteúdos das variáveis e mostre os valores após a troca.
 
-20. FUP que leia:
+**Desafio 2.** Peça dois números inteiros e mostre qual deles é o maior.
+
+---
+
+### 🔀 **Estrutura de Condição (Decisões)**
+
+**9.** Peça três notas de um aluno, calcule a média e informe:
+
+* "Aprovado" se a média for maior ou igual a 7
+* "Recuperação" se for maior ou igual a 5 e menor que 7
+* "Reprovado" se for menor que 5
+
+**10.** Peça o sexo da pessoa (H para homem, M para mulher) e a altura.
+Use as fórmulas para calcular o peso ideal:
+
+* Homens: (72.7 × altura) - 58
+* Mulheres: (62.1 × altura) - 44.7
+
+**11.** Peça dois números e uma operação matemática (+, -, \*, /). Calcule e mostre o resultado da operação escolhida.
+
+**12.** Peça um número e informe se ele é **positivo** ou **negativo**.
+
+**13.** Peça um número inteiro e diga se ele é **par** ou **ímpar**.
+   (Dica: se o número dividido por 2 tiver resto 0, é par)
+
+**15.** Peça dois números e diga qual é o **maior**.
+
+**16.** Peça três valores e verifique se eles podem formar um **triângulo**.
+   Se sim, peça a base e a altura e calcule a **área** do triângulo.
+   Se não puderem formar um triângulo, mostre os valores lidos.
+
+**17.** Peça o CPF (como número), o número de dependentes e a renda mensal da pessoa. Calcule o valor do imposto de renda com base:
+
+* Desconto de 5% do salário mínimo por dependente
+* Alíquotas:
+
+  * Até 2 SM → isento
+  * Até 3 SM → 5%
+  * Até 5 SM → 10%
+  * Até 7 SM → 15%
+  * Acima de 7 SM → 20%
+
+**Desafio 3.** Peça três números e diga qual é o **menor**.
+
+**Desafio 4.** Peça um ano e diga se ele é um **ano bissexto**.
+
+---
+
+### 🧮 **Para treinar sua matemática**
+
+**17.** Peça três notas e calcule a **média ponderada**, usando os pesos 2, 3 e 5.
+
+**18.** Peça o **custo de fábrica** de um carro. Calcule o valor final ao consumidor, considerando:
+
+* 28% de lucro para o distribuidor
+* 45% de impostos
+
+**19.** Peça o valor de um **capital inicial**, a **taxa de juros** (em formato decimal, como 0.05) e o **tempo em dias**. Mostre:
+
+* Capital
+* Juros
+* Montante (capital + juros)
+
+**20.** Peça os seguintes dados:
+
+* Percentual do IPI
+* Código, valor e quantidade de duas peças
+  Calcule o valor total a ser pago com o IPI.
+  Fórmula:
+    **Total = (valor1 × quant1 + valor2 × quant2) × (1 + IPI / 100)**
+
+**21.** Faça 8 perguntas sobre um crime (veja lista abaixo).
+Com base nas respostas positivas, classifique a pessoa como:
+
+* 4 respostas “sim” → Suspeito
+* 5 a 7 respostas “sim” → Possível criminoso
+* 8 respostas “sim” → Assassino
+* Menos de 4 respostas “sim” → Inocente
+
+Perguntas:
+
 ```
-    • a percentagem do IPI a ser acrescido no valor das peças
-    • o código da peça 1, valor unitário da peça 1, quantidade de peças 1
-    • o código da peça 2, valor unitário da peça 2, quantidade de peças 2
-    O algoritmo deve calcular o valor total a ser pago e apresentar o resultado.
-```
-Fórmula : ValorTotal = (valor1*quant1 + valor2*quant2)*(IPI/100 + 1)
-
-21. FUP para uma Investigação Criminal. Faça 8 perguntas para uma pessoa sobre um crime. As perguntas são:
-
-```
-" Trocou mensagens com a vítima? "
-" Esteve no local do crime? "
-" É parente ou reside perto da vítima? "
-" Devia algum valor para a vítima? "
-" Trabalha ou trabalhou com a vítima? "
-" Possui algum tipo de relacionamento amoroso com a vítima? "
-" Ficou feliz pelo destino fatídico na vítima? "
-" Possui algum tipo de arma de fogo? "
+1. Trocou mensagens com a vítima?
+2. Esteve no local do crime?
+3. Mora perto da vítima?
+4. Devia dinheiro para a vítima?
+5. Trabalha ou já trabalhou com a vítima?
+6. Tinha relacionamento amoroso com a vítima?
+7. Ficou feliz com o que aconteceu?
+8. Possui arma de fogo?
 ```
 
-Após, deve ser realizado uma análise das respostas e no final emitir uma classificação sobre a participação da pessoa no crime. Se a pessoa responder:
+**22.** Peça a **velocidade permitida** na via e a **velocidade que o motorista estava**. Calcule a multa:
 
-```
-- Positivo para 4 perguntas, a pessoa deve ser classificada como: "Suspeito do Crime"
-- Positivo para entre 5 e 7 perguntas, a pessoa deve ser classificada como "Possível Criminoso"
-- Positivo para 8 perguntas, a pessoa deve ser classificada como: "Assassino"
-- Caso contrário, a pessoa deverá ser classificado como: "Inocente"
-```
+* Até 20% acima → R\$ 102,00
+* Mais de 20% acima → R\$ 500,00
 
-22. FUP que leia a velocidade permitida em uma via, a velocidade praticada por um motorista, e informe se o mesmo receberá multa ou não, e o valor a pagar. Caso tenha excedido a velocidade em até 20% da permitida, o motorista receberá uma multa de R$ 102,00. Caso tenha excedido a velocidade acima de 20% da permitida, o motorista receberá uma multa de R$ 500,00.
+---
 
-# Estrutura de Repetição
+### 🔁 **Repetição (Laços)**
 
-23. FUP que solicite um numero e escreva "Batata" enquanto o usuario digita 1;
-24. FUP que imprima a tabuada de um numero de 0 a 10;
-25. FUP que solicite quantidade de pessoas, depois solicite a altura de cada uma e calcule a media da altura das pessoas;
-26. FUP que solicite o peso de 5 pessoas e calcule a media; Imprima o resultado;
-27. FUP que calcule o peso de um elevador, onde cada pessoa que entra informa o peso, caso atinga 180KG, o elevador informa que esta no peso maximo;
-28. FUP que leia 10 números e verifique quantos destes números são negativos.
+**23.** Enquanto o usuário digitar o número **1**, continue mostrando a palavra "Batata".
 
->Desafio 5) FUP altere o programa anterior para imprimir:
->- A quantidade de números positivos;
->- A quantidade de pares;
->- A quantidade de números múltiplos de 7.
+**24.** Peça um número e mostre a **tabuada** dele (de 0 a 10).
 
->DESAFIO 6) - FUP que solicite a quantidade de termos e imprima fibonacci até termo solicitado;
+**25.** Peça quantas pessoas serão cadastradas. Depois, peça a altura de cada uma e calcule a **média das alturas**.
 
->Desafio 7) - FUP que imprima fibonacci até o 10º termo;
+**26.** Peça o peso de 5 pessoas e calcule a **média dos pesos**.
 
+**27.** Simule um elevador. Cada pessoa que entra informa seu peso. Quando o peso total atingir 180 kg, o elevador informa que atingiu o **peso máximo**.
 
-# Arrays (use menos variaveis do que o exercicio anterior!)
+**28.** Peça 10 números e diga quantos deles são **negativos**.
 
-24. FUP que imprima a tabuada de um numero de 0 a 10;
-25. FUP que solicite quantidade de pessoas, depois solicite a altura de cada uma e calcule a media da altura das pessoas;
-26. FUP que solicite o peso de 5 pessoas e calcule a media; Imprima o resultado;
-27. FUP que calcule o peso de um elevador, onde cada pessoa que entra informa o peso, caso atinga 180KG, o elevador informa que esta no peso maximo;
-28. FUP que leia 10 números e verifique quantos destes números são negativos.
-29. FUP que preencha um array com 15 números aleatórios.
-30. FUP que preencha um vetor com 5 números aleatórios, sendo as posições do array eles:
-1 - entre 1 e 8;
-2 - entre 9 e 16;
-3 - entre 17 e 22;
-4 - entre 23 e 28;
-5 - entre 24 e 29;
+**Desafio 5.** Adapte o exercício anterior para também mostrar:
 
-> Desafio 8) Leia um array referente a notas de uma prova. Informe a maior nota, a menor notae a média das notas da prova. Imprima quais os alunos tiraram a menor nota e a maior nota. Para saber  quais alunos tiraram a nota maior e menor imprima o índicedo vetor (equivalente ao número da chamada do aluno).
+* Quantos números são **positivos**
+* Quantos são **pares**
+* Quantos são **múltiplos de 7**
 
+**Desafio 6.** Peça a quantidade de termos da sequência de Fibonacci e imprima até esse termo.
 
-31. FUP que leia um número inteiro de 1 a 3 e imprima o tipo de combustível correspondente, sendo 1 - Álcool, 2 - Gasolina, 3 - Diesel, utilizando a estrutura switch case. Implemente uma função que recebe o número e retorna o tipo de combustível correspondente.
-32. FUP que leia um número inteiro de 1 a 7 e imprima o dia da semana correspondente, utilizando a estrutura switch case. Implemente uma função que recebe o número e retorna o nome do dia da semana correspondente.
-33. FUP que leia um número inteiro de 1 a 12 e imprima o nome do mês correspondente, utilizando a estrutura switch case. Implemente uma função que recebe o número e retorna o nome do mês correspondente.
-34. FUP que leia um caractere digitado pelo usuário e verifique se ele é uma vogal ou uma consoante, utilizando a estrutura switch case. Implemente uma função que recebe o caractere e retorna se ele é uma vogal ou uma consoante.
-35. FUP que leia um número inteiro de 1 a 5 e imprima o nome de uma fruta correspondente, utilizando a estrutura switch case. Implemente uma função que recebe o número e retorna o nome da fruta correspondente.
+**Desafio 7.** Imprima a sequência de Fibonacci até o **10º termo**.
 
-36 - Crie um Projeto do ZERO em C#, onde esse projeto será chamado de Calculadora, dentro do arquivo Program, as seguintes opções: Calcular, Zerar, Sair, será também dentro Program que você fará a solicitação dos números e da operação desejada. Crie uma outra classe, chamada Calculadora (em outro arquivo), ela deverá conter as 4 funções básicas e deverá retornar o resultado da operação realizada.
-Seu objetivo é criar um loop de repetição, que irá realizar as operações matemáticas enquanto o usuário escolher a opção Calcular preservará o resultado da operação anterior, quando o usuário escolher zerar, irá limpar o resultado anterior e continuar a calcular, quando o usuário escolher sair, deverá encerrar o programa.
+---
+
+### 🔢 **Arrays (Listas de dados)**
+
+**29.** Preencha uma lista (array) com 15 números **aleatórios**.
+
+**30.** Preencha um array com 5 números aleatórios, obedecendo aos intervalos:
+
+* 1º número entre 1 e 8
+* 2º número entre 9 e 16
+* 3º número entre 17 e 22
+* 4º número entre 23 e 28
+* 5º número entre 24 e 29
+
+**Desafio 8.** Leia uma lista de notas de alunos. Mostre:
+
+* Maior nota
+* Menor nota
+* Média das notas
+* Números de chamada dos alunos com maior e menor nota (posição no array)
+
+---
+
+### 🧭 **Switch Case**
+
+**31.** Peça um número de 1 a 3 e mostre o tipo de combustível correspondente:
+1 → Álcool
+2 → Gasolina
+3 → Diesel
+
+**32.** Peça um número de 1 a 7 e mostre o dia da semana correspondente.
+1 → Domingo, 2 → Segunda, etc.
+
+**33.** Peça um número de 1 a 12 e mostre o nome do mês.
+
+**34.** Peça uma letra e informe se ela é **vogal** ou **consoante**.
+
+**35.** Peça um número de 1 a 5 e mostre o nome de uma fruta correspondente.
